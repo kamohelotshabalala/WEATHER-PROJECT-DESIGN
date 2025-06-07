@@ -74,11 +74,14 @@ main{
   font-size: 88px;
   font-weight: bold;
   margin-left: 18px;
+  line-height: 88px;
 }
 .weather-icon{
   position: relative;
   top: -8px;
-  font-size: 40px;
+  width: 88px;
+  height: 88px;
+  margin-top: 6px;
   margin-right: 10px;
 }
 .weather-unit{
