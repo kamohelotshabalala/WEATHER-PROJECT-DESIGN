@@ -24,6 +24,7 @@ main{
 }
 .form{
   display: flex;
+  justify-content: space-between;
 }
 .weather-data{
   display: flex;
@@ -69,9 +70,6 @@ main{
 }
 .weather-details strong{
   color: #f65282;
-}
-.temperature{
-  display: flex;
 }
 .weather-temperature{
   font-size: 88px;
