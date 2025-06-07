@@ -8,6 +8,10 @@ body {
  "Oswald", sans-serif;
     
 }
+header{
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 30px 0;
+}
 .app {
   background-color: bisque;
   max-width: 600px;
@@ -15,4 +19,21 @@ body {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0, 08);
   border-radius: 20px;
   padding: 30px;
+}
+.search-form{
+  background-color: beige;
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+.submit{
+  background-color: palevioletred;
+  padding: 15px 30px;
+  border: none;
+  font-size: 18px;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
 }
