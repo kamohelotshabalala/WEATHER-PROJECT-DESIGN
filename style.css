@@ -22,6 +22,9 @@ footer{
 main{
   padding: 30px 0;
 }
+.form{
+  display: flex;
+}
 .weather-data{
   display: flex;
   justify-content: space-between;
