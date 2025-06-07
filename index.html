@@ -16,8 +16,8 @@
 <body>
     <div class="app">
     <header>
-        <form class="form">
-            <input type="search" placeholder="Enter a city..." required class="search-form"/>
+        <form class="search-form" id="search-form">
+            <input type="search" placeholder="Enter a city..." required class="form" id="search-form-input"/>
             <input type="submit" value="search" class="submit" autofocus/>
         </form>
     </header>
@@ -25,7 +25,7 @@
     <main>
         <span class="weather-data"> 
         <div>
-            <h1 class="city">
+            <h1 class="city" id="city">
                 Paris
             </h1>
             <p class="weather-details">
@@ -45,6 +45,7 @@
         <a href="https://delicate-marzipan-085cfe.netlify.app/ "> hosted on Netlify</a>
     </footer>
      </div>
+     <script src="index.js"></script>
 </body>
 
 </html>
