@@ -77,10 +77,13 @@ main{
   margin-left: 18px;
 }
 .weather-icon{
-  font-size: 44px;
-  margin-top: 30px;
+  position: relative;
+  top: -8px;
+  font-size: 40px;
+  margin-right: 10px;
 }
 .weather-unit{
   font-size: 28px;
-  margin-top: 28px;
+  position: relative;
+  top: -38px;
 }
