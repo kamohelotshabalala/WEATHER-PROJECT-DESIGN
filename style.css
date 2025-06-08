@@ -76,13 +76,10 @@ main{
   margin-left: 18px;
   line-height: 88px;
 }
-.weather-icon{
+.icon{
   position: relative;
-  top: -8px;
   width: 88px;
-  height: 88px;
-  margin-top: 6px;
-  margin-right: 10px;
+  
 }
 .weather-unit{
   font-size: 28px;
