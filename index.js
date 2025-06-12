@@ -45,3 +45,28 @@ function searchCity(city) {
     `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric` ;
     axios.get(apiUrl).then(displayWeather);
 }
+
+function displayForecast() {
+    let days = ["Tue", "Wed", "Thur", "Fri", "Sat"];
+    let forecastHTML = "";
+    let forecast = document.querySelector("#forecast");
+
+    
+    days.forEach(function(day){
+        forecastHTML += `
+        <div class="weather-forecast-day">
+        <div class="weather-forecast-date"> ${day} </div>
+        <div class="weather-forecast-icon"> ⛅</div>
+        <div class="weather-forecast-temperatures"> 
+        <div class="weather-forecast-temperature"><strong>15°</strong>
+      </div>
+        <div class="weather-forecast-temperature">9°</div>
+      </div>
+    </div>`;
+    
+
+    });
+    let forecastElement = document.querySelector("#forecast");
+    forecastElement.innerHTML = forecastHTML;
+}
+displayForecast();
